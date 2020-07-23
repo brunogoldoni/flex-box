@@ -7,12 +7,15 @@ body,
 
 #app {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .box {
   background: #f00;
   height: 60px;
   margin: 5px;
-  width: 60px;
-  flex: 1;
+  width: 230px;
 }
