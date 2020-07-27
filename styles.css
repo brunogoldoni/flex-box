@@ -110,3 +110,76 @@ div.banner {
   align-items: center;
   color: #fff;
 }
+
+div.bar {
+  height: 59px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+div.bar .content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 285px;
+  height: 100%;
+}
+
+div.bar .content ul {
+  display: flex;
+  list-style: none;
+  height: 100%;
+}
+
+div.bar .content ul li {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 0 15px;
+}
+
+div.bar .content ul li.active::after {
+  background: #3bb9e3;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+div.bar .content ul li span {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+div.bar .content ul li strong {
+  color: #667580;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+div.bar .content ul li.active strong {
+  color: #3bb9e3;
+}
+
+div.bar .content .actions {
+  display: flex;
+}
+
+div.bar .content .actions button {
+  align-items: center;
+  background-color: transparent;
+  border: solid 1px #33bbbb;
+  border-radius: 16px;
+  color: #3bb9e3;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  margin-right: 20px;
+  width: 90px;
+}
