@@ -174,7 +174,7 @@ div.bar .content .actions {
 div.bar .content .actions button {
   align-items: center;
   background-color: transparent;
-  border: solid 1px #33bbbb;
+  border: solid 1px #3bb9e3;
   border-radius: 16px;
   color: #3bb9e3;
   display: flex;
@@ -182,4 +182,108 @@ div.bar .content .actions button {
   justify-content: center;
   margin-right: 20px;
   width: 90px;
+}
+
+div.wrapper-content {
+  display: flex;
+}
+
+div.wrapper-content aside.profile {
+  width: 260px;
+}
+
+div.wrapper-content aside.profile img.avatar {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  height: 200px;
+  margin-top: -130px;
+  width: 200px;
+}
+
+div.wrapper-content aside.profile h1 {
+  color: #1f2226;
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.profile span {
+  color: #53626c;
+  font-size: 14px;
+}
+
+div.wrapper-content aside.profile p {
+  color: #53626c;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul {
+  list-style: none;
+  margin-top: 15px;
+}
+
+div.wrapper-content aside.profile ul.list li {
+  align-items: center;
+  color: #657786;
+  display: flex;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+div.wrapper-content aside.profile li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile li:fisrt-child {
+  margin: 0;
+}
+
+div.wrapper-content aside.profile ul.list li img {
+  margin-right: 10px;
+}
+
+div.wrapper-content aside.profile .widget {
+  margin-top: 20px;
+}
+
+div.wrapper-content aside.profile .widget strong {
+  align-items: center;
+  color: #3bb9e3;
+  display: flex;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+div.wrapper-content aside.profile .widget strong img {
+  margin-right: 5px;
+}
+
+div.wrapper-content aside.profile .followers ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .followers ul li {
+  background: #d0d5d9;
+  border-radius: 50%;
+  flex: 1 0 auto;
+  height: 45px;
+  width: 45px;
+  margin: 0 5px 5px 0;
+}
+
+div.wrapper-content aside.profile .images ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.wrapper-content aside.profile .images ul li {
+  background: #d0d5d9;
+  border-radius: 8px;
+  flex: 1 0 auto;
+  height: 80px;
+  width: 80px;
+  margin: 0 5px 5px 0;
 }
