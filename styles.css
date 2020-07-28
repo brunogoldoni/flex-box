@@ -287,3 +287,113 @@ div.wrapper-content aside.profile .images ul li {
   width: 80px;
   margin: 0 5px 5px 0;
 }
+
+div.wrapper-content .timeline {
+  flex: 1;
+}
+
+div.wrapper-content aside.widgets {
+  width: 290px;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .widget {
+  background: #fff;
+  padding: 15px;
+}
+
+div.wrapper-content aside.widgets .widget .title {
+  display: flex;
+  align-items: baseline;
+}
+
+div.wrapper-content aside.widgets .widget .title strong {
+  color: #1f2226;
+  font-size: 18px;
+}
+
+div.wrapper-content aside.widgets .widget .title a {
+  color: #3bb9e3;
+  font-size: 12px;
+  padding-left: 14px;
+  position: relative;
+  text-decoration: none;
+}
+
+div.wrapper-content aside.widgets .widget .title a::before {
+  background: #222;
+  border-radius: 50%;
+  content: "";
+  color: #3bb9e3;
+  height: 2px;
+  left: 4px;
+  margin: 0 5px 0 5px;
+  position: absolute;
+  top: 6px;
+  width: 2px;
+}
+
+div.wrapper-content aside.widgets .follow ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li {
+  border-bottom: 1px solid #ccd6dd;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li:last-child {
+  border: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile {
+  display: flex;
+  align-items: center;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong {
+  color: #1f2326;
+  font-size: 14px;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info strong span {
+  color: #9a9a9a;
+  font-weight: normal;
+}
+
+div.wrapper-content aside.widgets .follow ul li .profile .info button {
+  align-items: center;
+  background-color: transparent;
+  border: solid 1px #3bb9e3;
+  border-radius: 16px;
+  color: #3bb9e3;
+  display: flex;
+  height: 27px;
+  justify-content: center;
+  margin: 4px 20px 0 0;
+  width: 90px;
+}
+
+div.wrapper-content aside.widgets .follow ul li > a {
+  color: #ccd6dd;
+  text-decoration: none;
+  font-size: 14px;
+}
