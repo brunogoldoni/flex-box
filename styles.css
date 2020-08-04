@@ -289,7 +289,92 @@ div.wrapper-content aside.profile .images ul li {
 }
 
 div.wrapper-content .timeline {
+  background: #fff;
   flex: 1;
+  margin: 10px 20px 0;
+}
+
+div.wrapper-content .timeline nav {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline nav a {
+  color: #3bb9e3;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+div.wrapper-content .timeline nav a:first-child {
+  margin: 0;
+}
+
+div.wrapper-content .timeline nav a.active {
+  color: #1f2226;
+}
+
+div.wrapper-content .timeline ul.tweets {
+  list-style: none;
+}
+
+div.wrapper-content .timeline ul.tweets li {
+  border-bottom: 1px solid #e6ecf0;
+  display: flex;
+  padding: 10px 15px;
+}
+
+div.wrapper-content .timeline ul.tweets li > img {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong {
+  color: #1f2326;
+  font-size: 14px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info strong span {
+  color: #1f2326;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+div.wrapper-content .timeline ul.tweets li .info p {
+  color: #1f2326;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info .actions {
+  display: flex;
+  margin-top: 20px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info .actions a {
+  align-items: center;
+  color: #667580;
+  display: flex;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+div.wrapper-content .timeline ul.tweets li .info .actions a:first-child {
+  margin-left: 0;
+}
+
+div.wrapper-content .timeline ul.tweets li .info .actions a img {
+  margin-right: 5px;
 }
 
 div.wrapper-content aside.widgets {
